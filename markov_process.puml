@@ -1,0 +1,8 @@
+@startuml
+[State0] --> [State1] : 0.9
+[State1] --> [State3] : 0.1
+[State1] --> [State2] : 0.8
+[State1] --> [State3] : 0.2
+[State2] --> [State3] : 1.0
+[State3] --> [State3] : 1.0
+@enduml
